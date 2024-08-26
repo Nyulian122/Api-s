@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,13 @@
     <link rel="stylesheet" href="./css/config.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>Álbum de Fotos de Perros</h1>
         </header>
 
-        <!-- Modos de Visualización -->
         <div class="view-mode-selector">
             <label for="view-mode">Modo de Visualización:</label>
             <select id="view-mode">
@@ -23,14 +24,13 @@
             </select>
         </div>
 
-        <!-- Búsqueda Avanzada -->
         <div class="advanced-search">
             <h3>Buscar Imágenes</h3>
             <div class="search-filters">
                 <label for="search-breed">Raza:</label>
                 <select id="search-breed">
                     <option value="all">Todas</option>
-                    <!-- Rellenado dinámico con razas -->
+
                 </select>
 
                 <label for="search-size">Tamaño:</label>
@@ -45,23 +45,21 @@
             </div>
         </div>
 
-        <!-- Galería de Fotos -->
         <div id="gallery" class="mosaic">
-            <!-- Las imágenes de perros se insertarán aquí -->
+            
         </div>
 
-        <!-- Perfil de Usuario -->
         <div class="user-profile">
             <h2>Perfil de Usuario</h2>
             <div class="profile-info">
-                <img id="user-avatar" src="https://images.pexels.com/photos/237900/pexels-photo-237900.jpeg" alt="Avatar">
+                <img id="user-avatar" src="https://images.pexels.com/photos/237900/pexels-photo-237900.jpeg"
+                    alt="Avatar">
                 <p id="user-name">Nombre de Usuario</p>
                 <button id="edit-profile-btn">Editar Perfil</button>
             </div>
             <div class="user-albums">
                 <h3>Tus Álbumes</h3>
                 <ul id="album-list">
-                    <!-- Lista de álbumes generada dinámicamente -->
                 </ul>
                 <button id="create-album-btn">Crear Nuevo Álbum</button>
             </div>
@@ -70,4 +68,5 @@
 
     <script src="./js/script.js"></script>
 </body>
+
 </html>
